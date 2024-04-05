@@ -829,30 +829,18 @@
     color: var(--text-color);
     display: block;
 }
-/* cái này nút xóa nè hihihih */
-.header__search-history-item {
-    position: relative; 
+/* xóa tất cả lịch sử */
+.header__search-history {
+    margin-bottom: 10px; 
 }
 
-.header__search-remove-btn {
-    display: none; 
-    position: absolute;
-    right: 0; 
-    top: 50%; 
-    transform: translateY(-50%); 
-    background-color: transparent; 
-    border: none; 
+.header__clear-history-btn {
+    font-size: 1.2rem;
+    color: var(--text-color); 
+    background-color: transparent;
+    border: none;
+    float: right;
     cursor: pointer; 
-    font-size: 16px; 
-    color: rgb(11, 10, 10); 
-}
-
-.header__search-history-item:hover .header__search-remove-btn {
-    display: inline-block;
-}
-
-.header__search-remove-btn:hover {
-    color: rgb(179, 170, 170); 
 }
 /* App container */
 .app_container {
